@@ -26,10 +26,10 @@ export default function Home() {
                   Monday
                 </td>
                 <td className="border border-gray-500 text-center bg-slate-500 text-white">
-                  FAA - SKG
+                  <a href="https://meet.google.com/uon-hjbe-ack"> FAA - SKG</a>
                 </td>
                 <td className="border border-gray-500 text-center bg-slate-500 text-white">
-                  FAA - SKG
+                  <a href="https://meet.google.com/tqo-nbxu-sno"> FAA - SKG</a>
                 </td>
                 <td className="border border-gray-500 text-center bg-amber-400 text-white">
                   English
@@ -46,7 +46,7 @@ export default function Home() {
                   <a href="https://meet.google.com/nrd-sezq-asf">FMM - SS</a>
                 </td>
                 <td className="border border-gray-500 text-center bg-slate-500 text-white">
-                  FAA - SKG
+                  <a href="https://meet.google.com/peo-douk-txt"> FAA - SKG</a>
                 </td>
                 <td className="border border-gray-500 text-center bg-cyan-500 text-white">
                   <a href="https://meet.google.com/auq-tayk-cor"> ME - Raj</a>
