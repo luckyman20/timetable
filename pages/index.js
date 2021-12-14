@@ -75,7 +75,11 @@ export default function Home() {
                       FMM - SS - Group1
                     </a>
                   </p>{" "}
-                  <p className="text-lime-700">FAA - SKG - Group2</p>{" "}
+                  <p className="text-lime-700">
+                    <a href="https://meet.google.com/fof-qxpx-wdx">
+                      FAA - SKG - Group2
+                    </a>
+                  </p>{" "}
                   <p className="text-teal-700">
                     {" "}
                     <a href="https://meet.google.com/auq-tayk-cor">
