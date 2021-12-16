@@ -10,12 +10,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className="flex justify-content items-center">
-          <table className="border border-gray-500">
+          <table className="table border border-gray-500">
             <thead>
               <tr>
                 <th className="border border-gray-500 p-2">Day</th>
                 <th className="border border-gray-500">9:00 to 10:00</th>
-                <th className="border border-gray-500">10:10 to 11:10</th>
+                <th className="border border-gray-500">
+                  <p className="mx-2">10:10 to 11:10</p>
+                </th>
                 <th className="border border-gray-500">11:20 to 12:20</th>
                 <th className="border border-gray-500">12:30 to 13:30</th>
               </tr>
@@ -110,7 +112,11 @@ export default function Home() {
                       FMM - SS - Group2
                     </a>
                   </p>{" "}
-                  <p className="text-teal-700">FAA - SKG - Group3</p>
+                  <p className="text-teal-700">
+                    <a href="https://meet.google.com/azc-ibyj-gku?hs=224">
+                      FAA - SKG - Group3
+                    </a>
+                  </p>
                 </td>
                 <td className="border border-gray-500 text-center bg-cyan-500 text-white">
                   <a href="https://meet.google.com/auq-tayk-cor"> ME - Raj</a>
