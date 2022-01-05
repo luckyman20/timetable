@@ -132,7 +132,7 @@ export default function Home() {
     {
       type: "Tute",
       name: ["ME - Raj - G1", "FAA - SKG - G3"],
-      link: ["https://meet.google.com/auq-tayk-cor", ""],
+      link: ["https://meet.google.com/auq-tayk-cor", "https://meet.google.com/azc-ibyj-gku"],
       time: "11:20 AM - 12:20 AM",
     },
     {
@@ -166,7 +166,7 @@ export default function Home() {
     {
       type: "Tute",
       name: ["FAA - SKG - G1", "ME - Raj - G2"],
-      link: ["", "https://meet.google.com/auq-tayk-cor"],
+      link: ["https://meet.google.com/kzi-ubbo-tfg", "https://meet.google.com/auq-tayk-cor"],
       time: "11:20 AM - 12:20 AM",
     },
     {
