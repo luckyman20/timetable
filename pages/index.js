@@ -7,6 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     setSchedule(all_days[day]);
+    days = temp_days;
   }, [day]);
 
   function openWebsite(link) {
@@ -14,6 +15,7 @@ export default function Home() {
   }
 
   var days = ["M", "T", "W", "Th", "F", "S"];
+  var temp_days = ["M", "T", "W", "Th", "F", "S"];
 
   var monday = [
     {
@@ -236,7 +238,6 @@ export default function Home() {
                   <div
                     key={day_}
                     className="flex justify-center items-center mx-8 text-violet-700 bg-violet-300 hover:cursor-pointer h-8 w-8 rounded-lg"
-                    onClick={() => setDay(days.indexOf(day_))}
                   >
                     {day_}
                   </div>
