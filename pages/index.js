@@ -114,8 +114,8 @@ export default function Home() {
       time: "1:30 PM - 2:00 PM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
+      name: "No Class",
+      link: "",
       time: "2:00 PM - 3:00 PM",
     },
   ];
