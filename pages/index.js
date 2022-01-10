@@ -134,7 +134,10 @@ export default function Home() {
     {
       type: "Tute",
       name: ["ME - Raj - G1", "FAA - SKG - G3"],
-      link: ["https://meet.google.com/auq-tayk-cor", "https://meet.google.com/azc-ibyj-gku"],
+      link: [
+        "https://meet.google.com/auq-tayk-cor",
+        "https://meet.google.com/azc-ibyj-gku",
+      ],
       time: "11:20 AM - 12:20 AM",
     },
     {
@@ -168,7 +171,10 @@ export default function Home() {
     {
       type: "Tute",
       name: ["FAA - SKG - G1", "ME - Raj - G2"],
-      link: ["https://meet.google.com/kzi-ubbo-tfg", "https://meet.google.com/auq-tayk-cor"],
+      link: [
+        "https://meet.google.com/kzi-ubbo-tfg",
+        "https://meet.google.com/auq-tayk-cor",
+      ],
       time: "11:20 AM - 12:20 AM",
     },
     {
@@ -264,11 +270,17 @@ export default function Home() {
                       key={index}
                       className="flex flex-row justify-center items-center gap-x-2 mt-8"
                     >
-                      <div onClick={() => openWebsite(item.link[0])} className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer">
+                      <div
+                        onClick={() => openWebsite(item.link[0])}
+                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer"
+                      >
                         <div className="text-sm"> {item.name[0]}</div>
                         <div className="text-xs"> {item.time} </div>
                       </div>
-                      <div onClick={() => openWebsite(item.link[1])} className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer">
+                      <div
+                        onClick={() => openWebsite(item.link[1])}
+                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer"
+                      >
                         <div className="text-sm"> {item.name[1]}</div>
                         <div className="text-xs"> {item.time} </div>
                       </div>
