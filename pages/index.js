@@ -6,6 +6,10 @@ export default function Home() {
   var [schedule, setSchedule] = useState([]);
 
   useEffect(() => {
+    setDay(new Date().getDay() - 1);
+  }, []);
+
+  useEffect(() => {
     setSchedule(all_days[day]);
     days = temp_days;
   }, [day]);
