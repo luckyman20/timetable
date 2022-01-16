@@ -7,6 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     setDay(new Date().getDay() - 1);
+    days = temp_days;
   }, []);
 
   useEffect(() => {
