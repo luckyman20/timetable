@@ -11,7 +11,11 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    setSchedule(all_days[day]);
+    if (day === -1) {
+      setSchedule(all_days[0]);
+    } else {
+      setSchedule(all_days[day]);
+    }
     days = temp_days;
   }, [day]);
 
@@ -244,6 +248,8 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center w-screen h-screen">
           <div className="flex flex-row justify-center items-center mt-4">
             {days.map((day_) => {
+              console.log("Index of ", day_, " is ", days.indexOf(day_));
+              console.log(day);
               if (days.indexOf(day_) === day) {
                 return (
                   <div
