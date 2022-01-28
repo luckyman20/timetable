@@ -174,7 +174,7 @@ export default function Home() {
     },
     {
       name: "FAA - SKG",
-      link: "meet.google.com/nqg-zdke-avp",
+      link: "https://meet.google.com/nqg-zdke-avp",
       time: "10:10 AM - 11:10 AM",
     },
     {
