@@ -28,211 +28,211 @@ export default function Home() {
 
   var monday = [
     {
-      name: "FAA - SKG",
-      link: "https://meet.google.com/uon-hjbe-ack",
+      name: "FDAS - RY",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "ME - Raj",
-      link: "https://meet.google.com/auq-tayk-cor",
-      time: "10:10 AM - 11:10 AM",
+      name: "CF - Amit",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      name: "English - AA",
-      link: "http://meet.google.com/kso-gzji-bbw",
-      time: "11:20 AM - 12:20 AM",
+      name: "CF - Amit",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "English - AA",
-      link: "http://meet.google.com/kso-gzji-bbw",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "FMI - RY",
+      time: "1:00 PM - 2:00 PM",
+    },
+    {
+      name: "IT - NK",
+      time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "IT - NK",
+      time: "3:00 PM - 4:00 PM",
     },
     {
       name: "No Class",
-      link: "",
-      time: "2:00 PM - 3:00 PM",
-    },
+      time: "4:00 PM - 5:00 PM",
+    }
   ];
 
   var tuesday = [
     {
-      name: "No Class",
-      link: "",
+      name: "FDAS - RY",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "FAA - SKG",
-      link: "https://meet.google.com/peo-douk-txt",
-      time: "10:10 AM - 11:10 AM",
+      name: "CF - Amit",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      name: "ME - Raj",
-      link: "https://meet.google.com/auq-tayk-cor",
-      time: "11:20 AM - 12:20 AM",
+      name: "FMI - RY",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "FMI - RY",
+      time: "1:00 PM - 2:00 PM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
+      name: "FDAS Prac - NKS",
       time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "IT - NK",
+      time: "3:00 PM - 4:00 PM",
+    },
+    {
+      name: "BSI - SG",
+      time: "4:00 PM - 5:00 PM",
     },
   ];
 
   var wednesday = [
     {
-      name: "No Class",
-      link: "",
+      name: "CF - Amit",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "FAA - SKG",
-      link: "https://meet.google.com/vha-ostu-xmh",
-      time: "10:10 AM - 11:10 AM",
+      name: "CF - Amit",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      type: "Tute",
-      name: ["FAA - SKG - G2", "ME - Raj - G3"],
-      link: [
-        "https://meet.google.com/fof-qxpx-wdx",
-        "https://meet.google.com/auq-tayk-cor",
-      ],
-      time: "11:20 AM - 12:20 AM",
+      name: "IT - NK",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "ME - Raj",
-      link: "https://meet.google.com/auq-tayk-cor",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "BSI - SG",
+      time: "1:00 PM - 2:00 PM",
     },
     {
-      name: "No Class",
-      link: "",
+      name: "BSI - SG",
       time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "FDAS Prac - NKS",
+      time: "3:00 PM - 4:00 PM",
+    },
+    {
+      name: "BSI - SG",
+      time: "4:00 PM - 5:00 PM",
     },
   ];
 
   var thursday = [
     {
-      name: "FAA - SKG",
-      link: "https://meet.google.com/oke-kyft-quf",
+      name: "CF - Amit",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "ME - Raj",
-      link: "https://meet.google.com/auq-tayk-cor",
-      time: "10:10 AM - 11:10 AM",
+      name: "FDAS Prac - NKS",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      type: "Tute",
-      name: ["ME - Raj - G1", "FAA - SKG - G3"],
-      link: [
-        "https://meet.google.com/auq-tayk-cor",
-        "https://meet.google.com/azc-ibyj-gku",
-      ],
-      time: "11:20 AM - 12:20 AM",
+      name: "FM - RY",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "IT - NK",
+      time: "1:00 PM - 2:00 PM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
+      name: "ISM - SK",
       time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "ISM - SK",
+      time: "3:00 PM - 4:00 PM",
+    },
+    {
+      name: "No class",
+      time: "4:00 PM - 5:00 PM",
     },
   ];
 
   var friday = [
     {
-      name: "No Class",
-      link: "",
+      name: "FM - RY",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "FAA - SKG",
-      link: "https://meet.google.com/nqg-zdke-avp",
-      time: "10:10 AM - 11:10 AM",
+      name: "FMI - RY",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      type: "Tute",
-      name: ["FAA - SKG - G1", "ME - Raj - G2"],
-      link: [
-        "https://meet.google.com/kzi-ubbo-tfg",
-        "https://meet.google.com/auq-tayk-cor",
-      ],
-      time: "11:20 AM - 12:20 AM",
+      name: "IT - NK",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "ME - Raj",
-      link: "https://meet.google.com/auq-tayk-cor",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "FDAS Prac - NKS",
+      time: "1:00 PM - 2:00 PM",
     },
     {
-      name: "No Class",
-      link: "",
+      name: "BSI - SG / ISM - SK",
       time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "BSI - SG / ISM - SK",
+      time: "3:00 PM - 4:00 PM",
+    },
+    {
+      name: "No class",
+      time: "4:00 PM - 5:00 PM",
     },
   ];
 
   var saturday = [
     {
-      name: "English - AA",
-      link: "https://meet.google.com/emo-nyye-oqc",
+      name: "BSI - SG / ISM - SK",
       time: "9:00 AM - 10:00 AM",
     },
     {
-      name: "English - AA",
-      link: "https://meet.google.com/emo-nyye-oqc",
-      time: "10:10 AM - 11:10 AM",
+      name: "BSI - SG / ISM - SK",
+      time: "10:00 AM - 11:00 AM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
-      time: "11:20 AM - 12:20 AM",
+      name: "No class",
+      time: "11:00 AM - 12:00 AM",
     },
     {
-      name: "FMM - Saima",
-      link: "https://meet.google.com/qtn-vooz-nrz",
-      time: "12:30 PM - 1:30 PM",
+      name: "Infy",
+      time: "12:00 PM - 1:00 PM",
     },
     {
-      name: "Break",
-      link: "",
-      time: "1:30 PM - 2:00 PM",
+      name: "No class",
+      time: "1:00 PM - 2:00 PM",
     },
     {
-      name: "No Class",
-      link: "",
+      name: "No class",
       time: "2:00 PM - 3:00 PM",
+    },
+    {
+      name: "No class",
+      time: "3:00 PM - 4:00 PM",
+    },
+    {
+      name: "No class",
+      time: "4:00 PM - 5:00 PM",
     },
   ];
 
@@ -241,11 +241,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>BFIA 1A Timetable</title>
+        <title>BFIA 2A Timetable</title>
       </Head>
 
-      <div className="flex flex-col justify-center items-center h-screen w-screen bg-gray-200">
-        <div className="flex flex-col justify-center items-center w-screen h-screen">
+      <div className="flex flex-col justify-center items-center min-h-screen min-w-screen bg-gray-200">
+        <div className="flex flex-col justify-center items-center min-w-screen min-h-screen">
           <div className="flex flex-row justify-center items-center mt-4">
             {days.map((day_) => {
               console.log("Index of ", day_, " is ", days.indexOf(day_));
@@ -275,7 +275,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row justify-center items-center gap-x-10">
             <div className="flex flex-col justify-center items-center">
-              {schedule.slice(0, 3).map((item, index) => {
+              {schedule.slice(0, 4).map((item, index) => {
                 if (item.type !== undefined) {
                   return (
                     <div
@@ -283,15 +283,13 @@ export default function Home() {
                       className="flex flex-row justify-center items-center gap-x-2 mt-8"
                     >
                       <div
-                        onClick={() => openWebsite(item.link[0])}
-                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer"
+                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2"
                       >
                         <div className="text-sm"> {item.name[0]}</div>
                         <div className="text-xs"> {item.time} </div>
                       </div>
                       <div
-                        onClick={() => openWebsite(item.link[1])}
-                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2 hover:cursor-pointer"
+                        className="flex flex-col justify-center items-center bg-white rounded-lg w-24 h-24 drop-shadow-xl p-2 gap-y-2"
                       >
                         <div className="text-sm"> {item.name[1]}</div>
                         <div className="text-xs"> {item.time} </div>
@@ -302,8 +300,7 @@ export default function Home() {
                   return (
                     <div
                       key={index}
-                      className="flex flex-col mt-8 justify-center items-center text-lg bg-white drop-shadow-xl rounded-lg h-24 w-48 text-black-500 hover:cursor-pointer"
-                      onClick={() => openWebsite(item.link)}
+                      className="flex flex-col mt-8 justify-center items-center text-lg bg-white drop-shadow-xl rounded-lg h-24 w-48 text-black-500"
                     >
                       <div>{item.name}</div>
                       <div className="text-base">{item.time}</div>
@@ -313,11 +310,10 @@ export default function Home() {
               })}
             </div>
             <div className="flex flex-col justify-center items-center">
-              {schedule.slice(3, 6).map((item, index) => (
+              {schedule.slice(4, 8).map((item, index) => (
                 <div
                   key={index}
-                  onClick={() => openWebsite(item.link)}
-                  className="flex flex-col mt-8 justify-center items-center text-lg bg-white drop-shadow-xl rounded-lg h-24 w-48 text-black-500 hover:cursor-pointer"
+                  className="flex flex-col mt-8 justify-center items-center text-lg bg-white drop-shadow-xl rounded-lg h-24 w-48 text-black-500"
                 >
                   <div>{item.name}</div>
                   <div className="text-base">{item.time}</div>
